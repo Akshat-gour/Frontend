@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.icon {
+    height: 50px;
+    width: 80px;
+    display: block;
+    /* Other styles here */
+}
+.icon1 {
+    background: url('images/icon-sedans.svg') no-repeat;
+}
+.icon2 {
+    background: url('images/icon-suvs.svg') no-repeat;
+}
+.icon3 {
+    background: url('images/icon-luxury.svg') no-repeat;
+}
+.container {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    /* border: solid 4px black; */
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: auto;
+    color: white;
+}
+.inside {
+    flex-basis: 1 1 1;
+    flex-flow: 1;
+    padding: 5%;
+}
+.btn1 {
+    color: #e28527;
+}
+.btn2 {
+    color: #016972;
+}
+.btn3 {
+    color: #00403f;
+}
+.box1 {
+    background-color: #e28527;
+}
+.box2 {
+    background-color: #016972;
+}
+.box3 {
+    background-color: #00403f;
+}
+button {
+    background-color: white; /* Green */
+    border: none;
+    padding: 15px 32px;
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+}
+h1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+p {
+    font-size: 15px;
+}
