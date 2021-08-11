@@ -1,0 +1,88 @@
+body {
+    background-image: url('pattern-background-desktop.svg');
+    margin-top: 3%;
+    font-family: 'Red Hat Display';
+}
+h3 {
+    color: rgb(0, 16, 49);
+    font-weight: bolder;
+}
+.contents {
+    color: rgb(121, 121, 121);
+}
+#container {
+    width: fit-content;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.rate {
+    color: rgb(122, 122, 122);
+}
+#content {
+    text-align: center;
+}
+#plan {
+    text-align: unset;
+    background-color: #e0e4f7;
+    /* border: 4px solid black; */
+    border-radius: 6px;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+}
+.amount {
+    line-height: 0.5;
+    position: absolute;
+    left: 15%;
+    top: 10px;
+    /* float: left; */
+}
+.music {
+    /* float: left; */
+    width: 10%;
+    position: relative;
+    right: 150px;
+    top: 2px;
+    display: inline;
+}
+.details {
+    display: inline;
+    margin-top: 0;
+    padding-top: 0;
+    color: rgb(0, 16, 49);
+}
+a {
+    position: absolute;
+    top: 30%;
+    right: 40px;
+}
+.button {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+.btn1 {
+    font-size: 12px;
+    background-color: #2822b4;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 6px;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn2 {
+    font-size: 12px;
+    background-color: white;
+    padding: 10px 24px;
+    border-radius: 6px;
+    width: 80%;
+    color: #2822b4;
+    border: 0px solid #4caf50;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5%;
+}
